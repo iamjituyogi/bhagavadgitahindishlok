@@ -73,3 +73,17 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# local device logs and screenshots
+/logs
+/screenshots
+
+# Secrets and release artifacts — never commit
+*.jks
+android/keystore.properties
+google-services.json
+GoogleService-Info.plist
+*.aab
+*.apk
+.env
+.env.*
